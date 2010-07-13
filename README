@@ -1,0 +1,10 @@
+Please read the few steps below to install the plugin and get everything working.
+
+1) Upload the 'comment-image-uploader' folder to the plugins directory: /wp-content/plugins/
+
+2) Activate the plugin via the WordPress admin dashboard
+
+3) Open comments.php of your current theme and insert the following code
+   wherever you want the image upload option to appear.
+
+<?php if (function_exists('upload_comment_images')) upload_comment_images(); ?>
